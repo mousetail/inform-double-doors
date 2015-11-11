@@ -40,6 +40,9 @@ The verb to be opposite to means the opposing relation.
 	
 
 Instead of an actor entering a base half door (this is the entering a half door rule):
+	if the back side of the noun is nothing:
+		say "[text of can't enter a door going nowhere rule response (A)]";
+		stop the action;
 	follow door entering rulebook for the noun;
 	if the rule succeeded:
 		follow the door leaving rulebook for the back side of noun;
